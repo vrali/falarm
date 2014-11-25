@@ -1,0 +1,29 @@
+@background : #3E414A;
+@controlbackground : #1FDA9A;
+@itembackground : #EE4B3E;
+@lines: #F5EACD;
+@font: 14px;
+body { 
+background-color : @background;
+}
+
+.seperator{
+	background-color : @controlbackground;
+	text-align:center;
+	border-bottom: 10px @lines;
+	font-size : @font + 4px;	
+	font-color : @lines;
+	margin-top : 20px;
+	margin-bottom : 2px;
+}
+.options-carousel
+{
+	background-color : @controlbackground;
+	height: auto;
+}
+.carousel-item{
+	background-color : @itembackground;
+	width : 60px;
+	height : 150px;
+	color : @lines;
+}

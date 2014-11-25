@@ -1,0 +1,22 @@
+body {
+  background-color: #3e414a;
+}
+.seperator {
+  background-color: #1fda9a;
+  text-align: center;
+  border-bottom: 10px #f5eacd;
+  font-size: 18px;
+  font-color: #f5eacd;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.options-carousel {
+  background-color: #1fda9a;
+  height: auto;
+}
+.carousel-item {
+  background-color: #ee4b3e;
+  width: 60px;
+  height: 150px;
+  font-color: #f5eacd;
+}

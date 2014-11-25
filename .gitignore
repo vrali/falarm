@@ -1,0 +1,5 @@
+bower_components/
+.bowerrc
+node_modules/
+npm-debug.log
+src/lib/*
