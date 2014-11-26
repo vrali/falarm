@@ -1,5 +1,5 @@
 body {
-  background-color: #3e414a;
+  background-color: #2d325b;
 }
 .seperator {
   background-color: #1fda9a;
@@ -18,5 +18,5 @@ body {
   background-color: #ee4b3e;
   width: 60px;
   height: 150px;
-  font-color: #f5eacd;
+  color: #f5eacd;
 }
