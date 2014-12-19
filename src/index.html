@@ -7,7 +7,7 @@
 </head>
 <body ng-app="meApp" >
 
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,19 +29,26 @@
     <div class="container" style ="height: 100px;margin-top:50px">
     	<div class="seperator"> How it Works</div>
     <div class="options-carousel">
-    	 <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
-    	 <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
+    	 <div index=0><h2>1</h2></div>
+         <div index=1><h2>2</h2></div>
+         <div index=2><h2>3</h2></div>
+         <div index=3><h2>4</h2></div>
+         <div index=4><h2>5</h2></div>
+         <div index=5><h2>6</h2></div>
     </div>
+    <div class="option-detailed">
+         <div class="detailed-item" index=0><h2>1 Detail</h2></div>
+         <div class="detailed-item" index=1><h2>2 Detail</h2></div>
+         <div class="detailed-item" index=2><h2>3 Detail</h2></div>
+         <div class="detailed-item" index=3><h2>4 Detail</h2></div>
+         <div class="detailed-item" index=4><h2>5 Detail</h2></div>
+         <div class="detailed-item" index=5><h2>6 Detail</h2></div>
     </div>
-    <script type="text/javascript" src="lib/jquery/jquery.js"></script>
+</div>
+<script type="text/javascript" src="lib/jquery/jquery.js"></script>
 <script type="text/javascript" src="lib/slick-carousel/slick.min.js"></script>
 <script type="text/javascript" src="js/slickstarter.js"></script>
 <script type="text/javascript" src="lib/angular/angular.js"></script>
 <script type="text/javascript" src ="app/app.js"></script>
-
 </body>
 </html>

@@ -15,8 +15,23 @@ body {
   height: auto;
 }
 .carousel-item {
-  background-color: #ee4b3e;
-  width: 60px;
+  background-color: #ee4b3e;  
   height: 150px;
   color: #f5eacd;
+}
+.options-carousel h2 {
+  text-align: center;
+}
+
+.option-detailed {
+  background-color: #1fda9a;
+  height: auto;
+}
+.detailed-item {
+  background-color: #ee4b3e;
+  height: 450px;
+  color: #f5eacd;
+}
+.option-detailed h2 {
+  text-align: center;
 }
